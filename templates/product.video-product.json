@@ -55,6 +55,7 @@
             "heading": "Section 1",
             "icon": "none",
             "content": "",
+            "liquid": "{{ product.description }}",
             "page": ""
           }
         },
@@ -63,7 +64,8 @@
           "settings": {
             "heading": "Section 2",
             "icon": "none",
-            "content": "",
+            "content": "<p>{{ product.metafields.custom.material.value }}<\/p>",
+            "liquid": "",
             "page": ""
           }
         },
@@ -79,6 +81,7 @@
             "heading": "Section 3",
             "icon": "none",
             "content": "<p>{{ product.metafields.custom.material.value }}<br\/>{{ product.metafields.custom.size | metafield_text }}<br\/>{{ product.metafields.custom.color | metafield_text }}<\/p>",
+            "liquid": "",
             "page": ""
           }
         },
@@ -89,6 +92,7 @@
             "heading": "Dimensions",
             "icon": "ruler",
             "content": "",
+            "liquid": "",
             "page": ""
           }
         },
@@ -99,6 +103,7 @@
             "heading": "Care Instructions",
             "icon": "heart",
             "content": "",
+            "liquid": "",
             "page": ""
           }
         },
